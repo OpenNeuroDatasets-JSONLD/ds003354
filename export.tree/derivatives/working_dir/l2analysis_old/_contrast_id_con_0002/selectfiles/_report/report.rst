@@ -1,1 +1,0 @@
-../../../../../../.git/annex/objects/6j/QQ/MD5E-s6692--c9b41911a63e58e5586e559db6d522ba.rst/MD5E-s6692--c9b41911a63e58e5586e559db6d522ba.rst
