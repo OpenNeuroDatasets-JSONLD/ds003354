@@ -1,0 +1,290 @@
+[
+    {
+        "group": 1,
+        "imports": [],
+        "name": "00_getsubjectinfo",
+        "size": 1
+    },
+    {
+        "group": 2,
+        "imports": [],
+        "name": "01_selectfiles",
+        "size": 1
+    },
+    {
+        "group": 2,
+        "imports": [
+            "01_selectfiles"
+        ],
+        "name": "02_modelspec",
+        "size": 1
+    },
+    {
+        "group": 2,
+        "imports": [
+            "02_modelspec"
+        ],
+        "name": "03_level1design",
+        "size": 1
+    },
+    {
+        "group": 2,
+        "imports": [
+            "03_level1design"
+        ],
+        "name": "04_datasink",
+        "size": 1
+    },
+    {
+        "group": 3,
+        "imports": [],
+        "name": "05_getsubjectinfo",
+        "size": 1
+    },
+    {
+        "group": 4,
+        "imports": [],
+        "name": "06_selectfiles",
+        "size": 1
+    },
+    {
+        "group": 4,
+        "imports": [
+            "06_selectfiles"
+        ],
+        "name": "07_modelspec",
+        "size": 1
+    },
+    {
+        "group": 4,
+        "imports": [
+            "07_modelspec"
+        ],
+        "name": "08_level1design",
+        "size": 1
+    },
+    {
+        "group": 4,
+        "imports": [
+            "08_level1design"
+        ],
+        "name": "09_datasink",
+        "size": 1
+    },
+    {
+        "group": 5,
+        "imports": [],
+        "name": "10_getsubjectinfo",
+        "size": 1
+    },
+    {
+        "group": 6,
+        "imports": [],
+        "name": "11_selectfiles",
+        "size": 1
+    },
+    {
+        "group": 6,
+        "imports": [
+            "11_selectfiles"
+        ],
+        "name": "12_modelspec",
+        "size": 1
+    },
+    {
+        "group": 6,
+        "imports": [
+            "12_modelspec"
+        ],
+        "name": "13_level1design",
+        "size": 1
+    },
+    {
+        "group": 6,
+        "imports": [
+            "13_level1design"
+        ],
+        "name": "14_datasink",
+        "size": 1
+    },
+    {
+        "group": 7,
+        "imports": [],
+        "name": "15_getsubjectinfo",
+        "size": 1
+    },
+    {
+        "group": 8,
+        "imports": [],
+        "name": "16_selectfiles",
+        "size": 1
+    },
+    {
+        "group": 8,
+        "imports": [
+            "16_selectfiles"
+        ],
+        "name": "17_modelspec",
+        "size": 1
+    },
+    {
+        "group": 8,
+        "imports": [
+            "17_modelspec"
+        ],
+        "name": "18_level1design",
+        "size": 1
+    },
+    {
+        "group": 8,
+        "imports": [
+            "18_level1design"
+        ],
+        "name": "19_datasink",
+        "size": 1
+    },
+    {
+        "group": 9,
+        "imports": [],
+        "name": "20_getsubjectinfo",
+        "size": 1
+    },
+    {
+        "group": 10,
+        "imports": [],
+        "name": "21_selectfiles",
+        "size": 1
+    },
+    {
+        "group": 10,
+        "imports": [
+            "21_selectfiles"
+        ],
+        "name": "22_modelspec",
+        "size": 1
+    },
+    {
+        "group": 10,
+        "imports": [
+            "22_modelspec"
+        ],
+        "name": "23_level1design",
+        "size": 1
+    },
+    {
+        "group": 10,
+        "imports": [
+            "23_level1design"
+        ],
+        "name": "24_datasink",
+        "size": 1
+    },
+    {
+        "group": 11,
+        "imports": [],
+        "name": "25_getsubjectinfo",
+        "size": 1
+    },
+    {
+        "group": 12,
+        "imports": [],
+        "name": "26_selectfiles",
+        "size": 1
+    },
+    {
+        "group": 12,
+        "imports": [
+            "26_selectfiles"
+        ],
+        "name": "27_modelspec",
+        "size": 1
+    },
+    {
+        "group": 12,
+        "imports": [
+            "27_modelspec"
+        ],
+        "name": "28_level1design",
+        "size": 1
+    },
+    {
+        "group": 12,
+        "imports": [
+            "28_level1design"
+        ],
+        "name": "29_datasink",
+        "size": 1
+    },
+    {
+        "group": 13,
+        "imports": [],
+        "name": "30_getsubjectinfo",
+        "size": 1
+    },
+    {
+        "group": 14,
+        "imports": [],
+        "name": "31_selectfiles",
+        "size": 1
+    },
+    {
+        "group": 14,
+        "imports": [
+            "31_selectfiles"
+        ],
+        "name": "32_modelspec",
+        "size": 1
+    },
+    {
+        "group": 14,
+        "imports": [
+            "32_modelspec"
+        ],
+        "name": "33_level1design",
+        "size": 1
+    },
+    {
+        "group": 14,
+        "imports": [
+            "33_level1design"
+        ],
+        "name": "34_datasink",
+        "size": 1
+    },
+    {
+        "group": 15,
+        "imports": [],
+        "name": "35_getsubjectinfo",
+        "size": 1
+    },
+    {
+        "group": 16,
+        "imports": [],
+        "name": "36_selectfiles",
+        "size": 1
+    },
+    {
+        "group": 16,
+        "imports": [
+            "36_selectfiles"
+        ],
+        "name": "37_modelspec",
+        "size": 1
+    },
+    {
+        "group": 16,
+        "imports": [
+            "37_modelspec"
+        ],
+        "name": "38_level1design",
+        "size": 1
+    },
+    {
+        "group": 16,
+        "imports": [
+            "38_level1design"
+        ],
+        "name": "39_datasink",
+        "size": 1
+    }
+]

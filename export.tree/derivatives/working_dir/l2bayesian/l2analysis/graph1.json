@@ -1,0 +1,94 @@
+{
+    "groups": [
+        {
+            "name": "Group_00001",
+            "procs": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "total": 7
+        }
+    ],
+    "links": [
+        {
+            "source": 1,
+            "target": 5,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 5,
+            "value": 1
+        },
+        {
+            "source": 5,
+            "target": 6,
+            "value": 1
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 3,
+            "value": 1
+        },
+        {
+            "source": 3,
+            "target": 4,
+            "value": 1
+        }
+    ],
+    "maxN": 7,
+    "nodes": [
+        {
+            "group": 1,
+            "name": "0_selectfiles",
+            "report": "/_contrast_id_con_0002/selectfiles/_report/report.rst",
+            "result": "/_contrast_id_con_0002/selectfiles/result_selectfiles.pklz"
+        },
+        {
+            "group": 1,
+            "name": "1_selectfiles",
+            "report": "/_contrast_id_con_0001/selectfiles/_report/report.rst",
+            "result": "/_contrast_id_con_0001/selectfiles/result_selectfiles.pklz"
+        },
+        {
+            "group": 1,
+            "name": "2_gunzip",
+            "report": "/gunzip/_report/report.rst",
+            "result": "/gunzip/result_gunzip.pklz"
+        },
+        {
+            "group": 1,
+            "name": "3_onesampttestdes",
+            "report": "/_contrast_id_con_0002/onesampttestdes/_report/report.rst",
+            "result": "/_contrast_id_con_0002/onesampttestdes/result_onesampttestdes.pklz"
+        },
+        {
+            "group": 1,
+            "name": "4_level2estimate",
+            "report": "/_contrast_id_con_0002/level2estimate/_report/report.rst",
+            "result": "/_contrast_id_con_0002/level2estimate/result_level2estimate.pklz"
+        },
+        {
+            "group": 1,
+            "name": "5_onesampttestdes",
+            "report": "/_contrast_id_con_0001/onesampttestdes/_report/report.rst",
+            "result": "/_contrast_id_con_0001/onesampttestdes/result_onesampttestdes.pklz"
+        },
+        {
+            "group": 1,
+            "name": "6_level2estimate",
+            "report": "/_contrast_id_con_0001/level2estimate/_report/report.rst",
+            "result": "/_contrast_id_con_0001/level2estimate/result_level2estimate.pklz"
+        }
+    ]
+}

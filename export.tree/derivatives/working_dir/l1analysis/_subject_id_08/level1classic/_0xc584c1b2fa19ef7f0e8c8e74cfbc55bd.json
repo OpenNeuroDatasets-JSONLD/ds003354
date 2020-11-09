@@ -1,0 +1,34 @@
+[
+    [
+        "estimation_method",
+        [
+            [
+                "Classical",
+                1
+            ]
+        ]
+    ],
+    [
+        "mfile",
+        true
+    ],
+    [
+        "spm_mat_file",
+        [
+            "/home/brain/Documents/data/main_data/working_dir/l1analysis/_subject_id_08/level1design/SPM.mat",
+            "f2502fe73f081e5ea18e8ce5d6caa300"
+        ]
+    ],
+    [
+        "use_v8struct",
+        true
+    ],
+    [
+        "needed_outputs",
+        [
+            "beta_images",
+            "residual_image",
+            "spm_mat_file"
+        ]
+    ]
+]
