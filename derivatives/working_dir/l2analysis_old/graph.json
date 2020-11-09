@@ -1,0 +1,104 @@
+[
+    {
+        "group": 1,
+        "imports": [],
+        "name": "00_selectfiles",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "01_selectfiles",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "02_gunzip",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "00_selectfiles",
+            "02_gunzip"
+        ],
+        "name": "03_onesampttestdes",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "03_onesampttestdes"
+        ],
+        "name": "04_level2estimate",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "04_level2estimate"
+        ],
+        "name": "05_level2conestimate",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "05_level2conestimate"
+        ],
+        "name": "06_level2thresh",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "05_level2conestimate",
+            "06_level2thresh"
+        ],
+        "name": "07_datasink",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "01_selectfiles",
+            "02_gunzip"
+        ],
+        "name": "08_onesampttestdes",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "08_onesampttestdes"
+        ],
+        "name": "09_level2estimate",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "09_level2estimate"
+        ],
+        "name": "10_level2conestimate",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "10_level2conestimate"
+        ],
+        "name": "11_level2thresh",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "10_level2conestimate",
+            "11_level2thresh"
+        ],
+        "name": "12_datasink",
+        "size": 1
+    }
+]

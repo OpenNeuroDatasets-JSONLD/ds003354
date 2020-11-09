@@ -1,0 +1,562 @@
+[
+    {
+        "group": 1,
+        "imports": [],
+        "name": "00_getsubjectinfo",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "01_selectfiles",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "01_selectfiles"
+        ],
+        "name": "02_gunzip",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "02_gunzip"
+        ],
+        "name": "03_smooth",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "00_getsubjectinfo",
+            "03_smooth"
+        ],
+        "name": "04_modelspec",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "04_modelspec"
+        ],
+        "name": "05_level1design",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "05_level1design"
+        ],
+        "name": "06_level1classic",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "06_level1classic"
+        ],
+        "name": "07_level1conest",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "07_level1conest",
+            "02_gunzip"
+        ],
+        "name": "08_datasink",
+        "size": 1
+    },
+    {
+        "group": 2,
+        "imports": [],
+        "name": "09_getsubjectinfo",
+        "size": 1
+    },
+    {
+        "group": 2,
+        "imports": [],
+        "name": "10_selectfiles",
+        "size": 1
+    },
+    {
+        "group": 2,
+        "imports": [
+            "10_selectfiles"
+        ],
+        "name": "11_gunzip",
+        "size": 1
+    },
+    {
+        "group": 2,
+        "imports": [
+            "11_gunzip"
+        ],
+        "name": "12_smooth",
+        "size": 1
+    },
+    {
+        "group": 2,
+        "imports": [
+            "09_getsubjectinfo",
+            "12_smooth"
+        ],
+        "name": "13_modelspec",
+        "size": 1
+    },
+    {
+        "group": 2,
+        "imports": [
+            "13_modelspec"
+        ],
+        "name": "14_level1design",
+        "size": 1
+    },
+    {
+        "group": 2,
+        "imports": [
+            "14_level1design"
+        ],
+        "name": "15_level1classic",
+        "size": 1
+    },
+    {
+        "group": 2,
+        "imports": [
+            "15_level1classic"
+        ],
+        "name": "16_level1conest",
+        "size": 1
+    },
+    {
+        "group": 2,
+        "imports": [
+            "16_level1conest",
+            "11_gunzip"
+        ],
+        "name": "17_datasink",
+        "size": 1
+    },
+    {
+        "group": 3,
+        "imports": [],
+        "name": "18_getsubjectinfo",
+        "size": 1
+    },
+    {
+        "group": 3,
+        "imports": [],
+        "name": "19_selectfiles",
+        "size": 1
+    },
+    {
+        "group": 3,
+        "imports": [
+            "19_selectfiles"
+        ],
+        "name": "20_gunzip",
+        "size": 1
+    },
+    {
+        "group": 3,
+        "imports": [
+            "20_gunzip"
+        ],
+        "name": "21_smooth",
+        "size": 1
+    },
+    {
+        "group": 3,
+        "imports": [
+            "18_getsubjectinfo",
+            "21_smooth"
+        ],
+        "name": "22_modelspec",
+        "size": 1
+    },
+    {
+        "group": 3,
+        "imports": [
+            "22_modelspec"
+        ],
+        "name": "23_level1design",
+        "size": 1
+    },
+    {
+        "group": 3,
+        "imports": [
+            "23_level1design"
+        ],
+        "name": "24_level1classic",
+        "size": 1
+    },
+    {
+        "group": 3,
+        "imports": [
+            "24_level1classic"
+        ],
+        "name": "25_level1conest",
+        "size": 1
+    },
+    {
+        "group": 3,
+        "imports": [
+            "25_level1conest",
+            "20_gunzip"
+        ],
+        "name": "26_datasink",
+        "size": 1
+    },
+    {
+        "group": 4,
+        "imports": [],
+        "name": "27_getsubjectinfo",
+        "size": 1
+    },
+    {
+        "group": 4,
+        "imports": [],
+        "name": "28_selectfiles",
+        "size": 1
+    },
+    {
+        "group": 4,
+        "imports": [
+            "28_selectfiles"
+        ],
+        "name": "29_gunzip",
+        "size": 1
+    },
+    {
+        "group": 4,
+        "imports": [
+            "29_gunzip"
+        ],
+        "name": "30_smooth",
+        "size": 1
+    },
+    {
+        "group": 4,
+        "imports": [
+            "27_getsubjectinfo",
+            "30_smooth"
+        ],
+        "name": "31_modelspec",
+        "size": 1
+    },
+    {
+        "group": 4,
+        "imports": [
+            "31_modelspec"
+        ],
+        "name": "32_level1design",
+        "size": 1
+    },
+    {
+        "group": 4,
+        "imports": [
+            "32_level1design"
+        ],
+        "name": "33_level1classic",
+        "size": 1
+    },
+    {
+        "group": 4,
+        "imports": [
+            "33_level1classic"
+        ],
+        "name": "34_level1conest",
+        "size": 1
+    },
+    {
+        "group": 4,
+        "imports": [
+            "34_level1conest",
+            "29_gunzip"
+        ],
+        "name": "35_datasink",
+        "size": 1
+    },
+    {
+        "group": 5,
+        "imports": [],
+        "name": "36_getsubjectinfo",
+        "size": 1
+    },
+    {
+        "group": 5,
+        "imports": [],
+        "name": "37_selectfiles",
+        "size": 1
+    },
+    {
+        "group": 5,
+        "imports": [
+            "37_selectfiles"
+        ],
+        "name": "38_gunzip",
+        "size": 1
+    },
+    {
+        "group": 5,
+        "imports": [
+            "38_gunzip"
+        ],
+        "name": "39_smooth",
+        "size": 1
+    },
+    {
+        "group": 5,
+        "imports": [
+            "36_getsubjectinfo",
+            "39_smooth"
+        ],
+        "name": "40_modelspec",
+        "size": 1
+    },
+    {
+        "group": 5,
+        "imports": [
+            "40_modelspec"
+        ],
+        "name": "41_level1design",
+        "size": 1
+    },
+    {
+        "group": 5,
+        "imports": [
+            "41_level1design"
+        ],
+        "name": "42_level1classic",
+        "size": 1
+    },
+    {
+        "group": 5,
+        "imports": [
+            "42_level1classic"
+        ],
+        "name": "43_level1conest",
+        "size": 1
+    },
+    {
+        "group": 5,
+        "imports": [
+            "43_level1conest",
+            "38_gunzip"
+        ],
+        "name": "44_datasink",
+        "size": 1
+    },
+    {
+        "group": 6,
+        "imports": [],
+        "name": "45_getsubjectinfo",
+        "size": 1
+    },
+    {
+        "group": 6,
+        "imports": [],
+        "name": "46_selectfiles",
+        "size": 1
+    },
+    {
+        "group": 6,
+        "imports": [
+            "46_selectfiles"
+        ],
+        "name": "47_gunzip",
+        "size": 1
+    },
+    {
+        "group": 6,
+        "imports": [
+            "47_gunzip"
+        ],
+        "name": "48_smooth",
+        "size": 1
+    },
+    {
+        "group": 6,
+        "imports": [
+            "45_getsubjectinfo",
+            "48_smooth"
+        ],
+        "name": "49_modelspec",
+        "size": 1
+    },
+    {
+        "group": 6,
+        "imports": [
+            "49_modelspec"
+        ],
+        "name": "50_level1design",
+        "size": 1
+    },
+    {
+        "group": 6,
+        "imports": [
+            "50_level1design"
+        ],
+        "name": "51_level1classic",
+        "size": 1
+    },
+    {
+        "group": 6,
+        "imports": [
+            "51_level1classic"
+        ],
+        "name": "52_level1conest",
+        "size": 1
+    },
+    {
+        "group": 6,
+        "imports": [
+            "52_level1conest",
+            "47_gunzip"
+        ],
+        "name": "53_datasink",
+        "size": 1
+    },
+    {
+        "group": 7,
+        "imports": [],
+        "name": "54_getsubjectinfo",
+        "size": 1
+    },
+    {
+        "group": 7,
+        "imports": [],
+        "name": "55_selectfiles",
+        "size": 1
+    },
+    {
+        "group": 7,
+        "imports": [
+            "55_selectfiles"
+        ],
+        "name": "56_gunzip",
+        "size": 1
+    },
+    {
+        "group": 7,
+        "imports": [
+            "56_gunzip"
+        ],
+        "name": "57_smooth",
+        "size": 1
+    },
+    {
+        "group": 7,
+        "imports": [
+            "54_getsubjectinfo",
+            "57_smooth"
+        ],
+        "name": "58_modelspec",
+        "size": 1
+    },
+    {
+        "group": 7,
+        "imports": [
+            "58_modelspec"
+        ],
+        "name": "59_level1design",
+        "size": 1
+    },
+    {
+        "group": 7,
+        "imports": [
+            "59_level1design"
+        ],
+        "name": "60_level1classic",
+        "size": 1
+    },
+    {
+        "group": 7,
+        "imports": [
+            "60_level1classic"
+        ],
+        "name": "61_level1conest",
+        "size": 1
+    },
+    {
+        "group": 7,
+        "imports": [
+            "61_level1conest",
+            "56_gunzip"
+        ],
+        "name": "62_datasink",
+        "size": 1
+    },
+    {
+        "group": 8,
+        "imports": [],
+        "name": "63_getsubjectinfo",
+        "size": 1
+    },
+    {
+        "group": 8,
+        "imports": [],
+        "name": "64_selectfiles",
+        "size": 1
+    },
+    {
+        "group": 8,
+        "imports": [
+            "64_selectfiles"
+        ],
+        "name": "65_gunzip",
+        "size": 1
+    },
+    {
+        "group": 8,
+        "imports": [
+            "65_gunzip"
+        ],
+        "name": "66_smooth",
+        "size": 1
+    },
+    {
+        "group": 8,
+        "imports": [
+            "63_getsubjectinfo",
+            "66_smooth"
+        ],
+        "name": "67_modelspec",
+        "size": 1
+    },
+    {
+        "group": 8,
+        "imports": [
+            "67_modelspec"
+        ],
+        "name": "68_level1design",
+        "size": 1
+    },
+    {
+        "group": 8,
+        "imports": [
+            "68_level1design"
+        ],
+        "name": "69_level1classic",
+        "size": 1
+    },
+    {
+        "group": 8,
+        "imports": [
+            "69_level1classic"
+        ],
+        "name": "70_level1conest",
+        "size": 1
+    },
+    {
+        "group": 8,
+        "imports": [
+            "70_level1conest",
+            "65_gunzip"
+        ],
+        "name": "71_datasink",
+        "size": 1
+    }
+]

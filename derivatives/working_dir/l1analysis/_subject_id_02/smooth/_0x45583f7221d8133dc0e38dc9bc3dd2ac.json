@@ -1,0 +1,37 @@
+[
+    [
+        "fwhm",
+        [
+            "8.0000000000",
+            "8.0000000000",
+            "8.0000000000"
+        ]
+    ],
+    [
+        "in_files",
+        [
+            [
+                "/home/brain/Documents/data/main_data/working_dir/l1analysis/_subject_id_02/gunzip/mapflow/_gunzip0/sub-02_task-empatom_space-MNI152NLin2009cAsym_desc-preproc_bold.nii",
+                "474c2407988a13f6afc21b1dd5370c29"
+            ]
+        ]
+    ],
+    [
+        "mfile",
+        true
+    ],
+    [
+        "out_prefix",
+        "s"
+    ],
+    [
+        "use_v8struct",
+        true
+    ],
+    [
+        "needed_outputs",
+        [
+            "smoothed_files"
+        ]
+    ]
+]
