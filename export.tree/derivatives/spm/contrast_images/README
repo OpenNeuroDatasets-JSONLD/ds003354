@@ -1,0 +1,9 @@
+This folder contains contrast images thresholded by SPM.
+File name contains information about parameters used.
+
+Abbreviations:
+con = contrast
+tom = Theory of Mind
+e = effect size threshold
+p = threshold p-value
+v = voxel extent threshold
