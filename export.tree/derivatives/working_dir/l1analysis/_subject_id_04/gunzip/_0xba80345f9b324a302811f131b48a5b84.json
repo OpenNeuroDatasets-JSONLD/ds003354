@@ -1,0 +1,17 @@
+[
+    [
+        "in_file",
+        [
+            [
+                "/home/brain/Documents/data/main_data/derivatives/fmriprep/sub-04/func/sub-04_task-empatom_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "9b5005cefd3ea1a00eb5b5168afc10b1"
+            ]
+        ]
+    ],
+    [
+        "needed_outputs",
+        [
+            "out_file"
+        ]
+    ]
+]
